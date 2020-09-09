@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+header {
+  background: url('img/back.jpg') no-repeat center center / cover;
+  height: 100vh;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+nav .logo {
+  font-size: 1.8rem;
+  color: #957870;
+}
+
+nav .logo .text-thick {
+  font-weight: 700;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul li {
+  margin: 0 .5rem;
+}
+
+ul li a {
+  font-size: .9rem;
+  color:  #957870;
+  padding: 1rem;
+  transition: .5s ease;
+}
+
+ul li a:hover {
+  background: #957870;
+  color: #fff;
+}
+
+.header-content {
+  margin-top: 4rem;
+  width: 670px;
+}
+
+.header-content h1 {
+  font-size: 6rem;
+  line-height: 1.2;
+  font-weight: 600;
+  color: #957870;
+}
+
+.btn {
+  display: inline-block;
+  margin: 1rem auto;
+  padding: .5rem 4rem;
+  font-weight: 500;
+  font-size: 1.2rem;
+  background: #957870;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background .4s ease;
+}
+
+.btn:hover {
+  background: #5a4640;
+}
